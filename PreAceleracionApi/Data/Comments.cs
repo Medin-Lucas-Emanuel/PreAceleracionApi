@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace PreAceleracionApi.Entidades
+namespace PreAceleracionApi.Data
 {
     public class Comments
     {
@@ -11,7 +8,7 @@ namespace PreAceleracionApi.Entidades
         public DateTime date { get; set; }
         public string content { get; set; }
 
-        public Users user { get; set; }
+       // public Users user { get; set; }
 
     }
 }

@@ -14,6 +14,6 @@ namespace PreAceleracionApi.Entidades
         public DateTime date { get; set; }
         public string content { get; set; }
 
-        public Users user { get; set; }
+        //public Users user { get; set; }
     }
 }

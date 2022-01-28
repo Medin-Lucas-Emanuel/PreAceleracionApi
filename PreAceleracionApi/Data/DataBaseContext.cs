@@ -12,8 +12,8 @@ namespace PreAceleracionApi.Data
 
         //Entidades 
 
-        public DbSet<Users> User { get; set; }
-        public DbSet<Posts> Post { get; set; }
-        public DbSet<Comments> Comment { get; set; }
+        public DbSet<Users> Users { get; set; }
+        public DbSet<Posts> Posts { get; set; }
+        public DbSet<Comments> Comments { get; set; }
     }
 }

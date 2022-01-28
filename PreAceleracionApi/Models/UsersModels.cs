@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace PreAceleracionApi.Entidades
+namespace PreAceleracionApi.Models
 {
-    public class Users
+    public class UsersModels
     {
         [Key]
         public int id { get; set; }
@@ -16,8 +13,8 @@ namespace PreAceleracionApi.Entidades
         [EmailAddress]
         public string email { get; set; }
 
-        public List<Posts> posts { get; set; }
-        public List<Comments> comments { get; set; }
+        public List<PostsModels> posts { get; set; }
+        public List<CommentsModels> comments { get; set; }
 
     }
 }
